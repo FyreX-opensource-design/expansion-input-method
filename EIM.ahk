@@ -1,4 +1,4 @@
-﻿;notes on text expansion convention
+;notes on text expansion convention
 ;abbreviation expansion starts with a
 ;country code expansion starts with cc
 ;word expansion starts with 1w
@@ -74,12 +74,12 @@
 :C:ccco::Colombia
 :C:cckm::Comoros
 :C:cccg::Congo
-:C:cccd::Democratic Republic of the Congo
 :C:cccr::Costa Rica
 :C:cchr::Croatia
 :C:cccu::Cuba
 :C:cccy::Cyprus
 :C:cccz::Czech Republic
+:C:cccd::Democratic Republic of the Congo
 :C:ccdk::Denmark
 :C:ccdj::Djibouti
 :C:ccdm::Dominica
@@ -116,14 +116,14 @@
 :C:ccie::Ireland
 :C:ccil::Israel
 :C:ccit::Italy
+:C:cciv::Ivory Coast
 :C:ccjm::Jamaica
 :C:ccjp::Japan
 :C:ccjo::Jordan
 :C:cckz::Kazakhstan
 :C:ccke::Kenya
 :C:ccki::Kiribati
-:C:cckp::North Korea
-:C:cckr::South Korea
+:C:ccxk::Kosovo
 :C:cckw::Kuwait
 :C:cckg::Kyrgyzstan
 :C:ccla::Laos
@@ -135,6 +135,7 @@
 :C:ccli::Liechtenstein
 :C:cclt::Lithuania
 :C:cclu::Luxembourg
+:C:ccmk::Macedonia
 :C:ccmg::Madagascar
 :C:ccmw::Malawi
 :C:ccmy::Malaysia
@@ -161,6 +162,7 @@
 :C:ccni::Nicaragua
 :C:ccne::Niger
 :C:ccng::Nigeria
+:C:cckp::North Korea
 :C:ccno::Norway
 :C:ccom::Oman
 :C:ccpk::Pakistan
@@ -194,6 +196,7 @@
 :C:ccsb::Solomon Islands
 :C:ccso::Somalia
 :C:ccza::South Africa
+:C:cckr::South Korea
 :C:ccss::South Sudan
 :C:cces::Spain
 :C:cclk::Sri Lanka
@@ -203,6 +206,7 @@
 :C:ccse::Sweden
 :C:ccch::Switzerland
 :C:ccsy::Syria
+:C:cctw::Taiwan
 :C:cctj::Tajikistan
 :C:cctz::Tanzania
 :C:ccth::Thailand
@@ -217,7 +221,10 @@
 :C:ccug::Uganda
 :C:ccua::Ukraine
 :C:ccae::United Arab Emirates
-:C:ccgb::United Kingdom
+:C:ccgb::England
+:C:ccwl::Wales
+:C:ccscot::Scotland
+:C:ccuk::Northern Ireland
 :C:ccus::United States
 :C:ccuy::Uruguay
 :C:ccuz::Uzbekistan
@@ -311,14 +318,14 @@
 :C:pccie::Irish
 :C:pccil::Israeli
 :C:pccit::Italian
+:C:pcciv::Ivorian
 :C:pccjm::Jamaican
 :C:pccjp::Japanese
 :C:pccjo::Jordanian
 :C:pcckz::Kazakhstani
 :C:pccke::Kenyan
 :C:pccki::I-Kiribati
-:C:pcckp::North Korean
-:C:pcckr::South Korean
+:C:pccxk::Kosovar
 :C:pcckw::Kuwaiti
 :C:pcckg::Kyrgyzstani
 :C:pccla::Laotian
@@ -330,6 +337,7 @@
 :C:pccli::Liechtensteiner
 :C:pcclt::Lithuanian
 :C:pcclu::Luxembourger
+:C:pccmk::Macedonian
 :C:pccmg::Malagasy
 :C:pccmw::Malawian
 :C:pccmy::Malaysian
@@ -356,6 +364,7 @@
 :C:pccni::Nicaraguan
 :C:pccne::Nigerien
 :C:pccng::Nigerian
+:C:pcckp::North Korean
 :C:pccno::Norwegian
 :C:pccom::Omani
 :C:pccpk::Pakistani
@@ -389,6 +398,7 @@
 :C:pccsb::Solomon Islander
 :C:pccso::Somali
 :C:pccza::South African
+:C:pcckr::South Korean
 :C:pccss::South Sudanese
 :C:pcces::Spanish
 :C:pcclk::Sri Lankan
@@ -398,6 +408,7 @@
 :C:pccse::Swedish
 :C:pccch::Swiss
 :C:pccsy::Syrian
+:C:pcctw::Taiwanese
 :C:pcctj::Tajik
 :C:pcctz::Tanzanian
 :C:pccth::Thai
@@ -412,7 +423,10 @@
 :C:pccug::Ugandan
 :C:pccua::Ukrainian
 :C:pccae::Emirati
-:C:pccgb::British
+:C:pccgb::English
+:C:pccwh::Welsh
+:C:pccscot::Scottish
+:C:pccuk::Northern Irish
 :C:pccus::American
 :C:pccuy::Uruguayan
 :C:pccuz::Uzbek
