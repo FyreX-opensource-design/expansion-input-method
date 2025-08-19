@@ -97,8 +97,8 @@ Word completion expansions replace the old suffix system (`tn::tion`, `sn::sion`
 
 ### **Patterns**
 
-#### **`n-` Prefix (Words ending in -cation)**
-Removes common "ifi" letters to create unique abbreviations:
+#### **`n-` Prefix (Words ending in -ion)**
+Removes common letters shared between words to create unique abbreviations:
 
 | Abbreviation | Expansion | Pattern |
 |--------------|-----------|---------|
@@ -106,12 +106,6 @@ Removes common "ifi" letters to create unique abbreviations:
 | `nbeauta` | "beautification" | `n` + `beaut` + `a` |
 | `ncerta` | "certification" | `n` + `cert` + `a` |
 | `nclara` | "clarification" | `n` + `clar` + `a` |
-
-#### **`n-` Prefix (Words ending in -ation, -sion)**
-Removes common letters to create unique abbreviations:
-
-| Abbreviation | Expansion | Pattern |
-|--------------|-----------|---------|
 | `nadmina` | "administration" | `n` + `admin` + `a` |
 | `ncommu` | "communication" | `n` + `commu` |
 | `nconca` | "concentration" | `n` + `conc` + `a` |
@@ -175,26 +169,6 @@ Use `ID` prefix followed by province abbreviation:
 | `IDsi` | "West Sulawesi" |
 | `IDba` | "Bali" |
 | `IDjk` | "Jakarta" |
-
-## 🧭 Single Word Expansions
-
-### **Pattern**
-Use `1w` prefix for single words (when no other prefix category fits):
-
-| Abbreviation | Expansion | Pattern |
-|--------------|-----------|---------|
-| `1wdh` | "downhill" | `1w` + `dh` |
-| `1wuh` | "uphill" | `1w` + `uh` |
-| `1wnb` | "northbound" | `1w` + `nb` |
-| `1wsb` | "southbound" | `1w` + `sb` |
-| `1web` | "eastbound" | `1w` + `eb` |
-| `1wwb` | "westbound" | `1w` + `wb` |
-
-### **Why `1w` Prefix?**
-The `1w` prefix was chosen for single words that don't fit into other categories:
-- **`1`** = indicates it's a single word expansion
-- **`w`** = stands for "word"
-- **Alternative** to other prefix categories when no specific pattern applies
 
 ## 🔧 How to Use
 
@@ -267,11 +241,11 @@ Add to `EIM.ahk`:
 
 ### **Best Practices**
 1. **Follow the prefix system** for consistency
-2. **Use lowercase for casual phrases** (`aomg`)
-3. **Use uppercase for formal phrases** (`Aomg`)
+2. **add both lower and upper case phrases** (`aomg`) (`Aomg`)
 4. **Test abbreviations** before adding to production
 5. **Document custom expansions** for team members
 
 ---
 
 *This system provides a comprehensive, consistent approach to text expansion that works across platforms and use cases.*
+
