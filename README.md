@@ -29,6 +29,8 @@ AutoHotkey/
 2. Run `EIM.ahk`
 3. Type abbreviations anywhere - they expand automatically!
 
+> **💡 Application Compatibility**: The AutoHotkey script works best with modern, responsive applications. Slower applications like Notepad don't work properly for outputs with multuple words. For optimal experience, use note-taking apps (Joplin, Obsidian, Nextcloud Notes) or word processors (Microsoft Office, Google Docs, Nextcloud Office).
+
 ### **Linux Users**
 - **X11 (GNOME (prior to V46), KDE, XFCE)**: See `linux/README_AutoKey.md`
 - **Wayland (current GNOME, Hyprland, Sway)**: See `linux/wayland/README_Background_Monitoring.md`
@@ -146,6 +148,7 @@ cd linux/wayland
 ---
 
 *EIM provides the most seamless text expansion experience across platforms, with Wayland users getting the closest AutoHotkey-like functionality on Linux!*
+
 
 
 
