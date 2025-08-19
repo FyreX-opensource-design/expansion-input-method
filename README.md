@@ -69,6 +69,7 @@ EIM (Enhanced Input Method) is a text expansion system that automatically conver
 ### **Geographic** (`US`, `CA`, `cc`, `ID` prefixes)
 - `USca` → "California"
 - `ccus` → "United States"
+
 ## **Nationality** ('pcc' prefix)
 - `pccus` → "American"
 
@@ -145,5 +146,6 @@ cd linux/wayland
 ---
 
 *EIM provides the most seamless text expansion experience across platforms, with Wayland users getting the closest AutoHotkey-like functionality on Linux!*
+
 
 
