@@ -30,8 +30,8 @@ AutoHotkey/
 3. Type abbreviations anywhere - they expand automatically!
 
 ### **Linux Users**
-- **X11 (GNOME, KDE, XFCE)**: See `linux/README_AutoKey.md`
-- **Wayland (Modern Linux)**: See `linux/wayland/README_Background_Monitoring.md`
+- **X11 (GNOME (prior to V46), KDE, XFCE)**: See `linux/README_AutoKey.md`
+- **Wayland (current GNOME, Hyprland, Sway)**: See `linux/wayland/README_Background_Monitoring.md`
 
 ## 🎯 **What is EIM?**
 
@@ -70,15 +70,12 @@ EIM (Enhanced Input Method) is a text expansion system that automatically conver
 - `USca` → "California"
 - `ccus` → "United States"
 
-### **Single Words** (`1w` prefix)
-- `1wdh` → "downhill"
-
 ## 🛠️ **Data Management**
 
-All expansions are stored in `EIM_expansions_data.py` and shared across platforms. To add custom expansions:
+All expansions are stored in `EIM_expansions_data.py`, `EIM.ahk` in the case of windows, and shared across platforms. To add custom expansions:
 
 1. **Edit** `EIM_expansions_data.py`
-2. **Add entries** to `EXPANSIONS_DATA` dictionary
+2. **Add entries** to `EXPANSIONS_DATA` dictionary and to `EIM.ahk`
 3. **Restart scripts** or reload applications
 
 ## 🔄 **Platform Migration**
@@ -105,7 +102,7 @@ All expansions are stored in `EIM_expansions_data.py` and shared across platform
 ### **Windows**
 ```bash
 # Download and run EIM.ahk
-# Requires AutoHotkey v1.1+
+# Requires AutoHotkey v2.0
 ```
 
 ### **Linux X11**
@@ -131,10 +128,8 @@ cd linux/wayland
 
 ## 🔮 **Future Development**
 
-- **Mobile Support** - Android/iOS text expansion
-- **Cloud Sync** - Cross-device abbreviation sharing
-- **AI Integration** - Smart abbreviation suggestions
-- **Advanced Triggers** - Custom keyboard shortcuts
+- **Mobile Support** - Android/iOS text expansion (android currently in the words via Texspand. Might be more limited in scope...)
+- **AI Integration** - Smart abbreviation suggestions (windows and Linux currently planned)
 - **Multi-Language** - International expansion support
 
 ## 🤝 **Contributing**
@@ -143,7 +138,9 @@ cd linux/wayland
 - Suggest new expansion categories
 - Test on different Linux distributions
 - Improve documentation and examples
+- Sort out some entries propaerly (Cursor/Claude is somewhat bad at this...)
 
 ---
 
 *EIM provides the most seamless text expansion experience across platforms, with Wayland users getting the closest AutoHotkey-like functionality on Linux!*
+
