@@ -1,0 +1,24 @@
+{
+  "keyboard_devices": [],
+  "auto_detect_keyboards": true,
+  "key_timeout": 2.0,
+  "buffer_size": 20,
+  "clipboard_fallback": true,
+  "log_level": "INFO",
+  "expansion_triggers": {
+    "space_key": true,
+    "enter_key": true,
+    "tab_key": false,
+    "custom_keys": []
+  },
+  "performance": {
+    "clipboard_check_interval": 0.5,
+    "status_update_interval": 30,
+    "max_history_size": 100
+  },
+  "security": {
+    "require_user_confirmation": false,
+    "allowed_applications": [],
+    "blocked_applications": []
+  }
+}
